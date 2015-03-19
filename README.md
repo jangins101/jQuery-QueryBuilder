@@ -27,9 +27,12 @@ http://mistic100.github.io/jQuery-QueryBuilder
  * Safari ??
 
 ### Build
-Found some helpful info [here](http://stackoverflow.com/questions/18401606/npm-doesnt-install-module-dependencies) to resolve a couple issues
-Run `npm install -g grunt --save-dev` in project directory to install grunt.
-Run `npm install` in same directory
+
+* Install nodejs (with npm)
+* Install Ruby 
+* Found some helpful info [here](http://stackoverflow.com/questions/18401606/npm-doesnt-install-module-dependencies) to resolve a couple issues.
+* Run `npm install -g grunt --save-dev` in project directory to install grunt.
+* Run `npm install` or `npm update` in same directory
 
 
 Run `grunt` in root directory to generate minified files inside `dist`.
