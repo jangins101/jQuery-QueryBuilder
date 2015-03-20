@@ -35,7 +35,9 @@ http://mistic100.github.io/jQuery-QueryBuilder
 * Run `npm install -g grunt-cli` to install the grunt cli
 * Run `npm install` or `npm update`
 * Install `Ruby` 
-  * Ruby: `gem install sass`
+ * Ruby: `gem install sass`
+* Run `npm install -g bower --save-dev` to install bower
+ * Run `bower install` or `bower update`
 
 
 Run `grunt` in root directory to generate minified files inside `dist`.
@@ -53,7 +55,7 @@ All plugins are included by default.
 You can also include ONE language with `--lang`
 ```bash
 # include French translation
-grunt --lang=fr
+grunt --lang=en
 ```
 
 Run `grunt test` to run JSHint and the QUnit test suite.
